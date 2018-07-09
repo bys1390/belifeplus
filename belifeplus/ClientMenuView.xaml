@@ -19,19 +19,19 @@
         </Grid.RowDefinitions>
 
         <Button  Grid.ColumnSpan="2" Margin="40 20">
-            <Image Source="content/placeholder-vertical.png" Width="50" Height="50" Stretch="Fill"/>
+            <Image Source="content/placeholder.png" Width="50" Height="50" Stretch="Fill"/>
         </Button>
         <Button Grid.Row="1" Margin="40 20" Click="Button_Click">
-            <Image Source="content/placeholder-vertical.png" Width="50" Height="50" Stretch="Fill"/>
+            <Image Source="content/placeholder.png" Width="50" Height="50" Stretch="Fill"/>
         </Button>
         <Button Grid.Row="1" Grid.Column="1" Margin="40 20" Click="Button_Click_1">
-            <Image Source="content/placeholder-vertical.png" Width="50" Height="50" Stretch="Fill"/>
+            <Image Source="content/placeholder.png" Width="50" Height="50" Stretch="Fill"/>
         </Button>
         <Button Grid.Row="2" Margin="40 20">
-            <Image Source="content/placeholder-vertical.png" Width="50" Height="50" Stretch="Fill"/>
+            <Image Source="content/placeholder.png" Width="50" Height="50" Stretch="Fill"/>
         </Button>
         <Button Grid.Row="2" Grid.Column="2" Margin="40 20">
-            <Image Source="content/placeholder-vertical.png" Width="50" Height="50" Stretch="Fill"/>
+            <Image Source="content/placeholder.png" Width="50" Height="50" Stretch="Fill"/>
         </Button>
     </Grid>
 </Controls:MetroWindow>

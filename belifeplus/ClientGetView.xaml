@@ -17,7 +17,7 @@
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
 
-        <Image Grid.ColumnSpan="2" Source="content/placeholder-horizontal.png" Margin="40 20" Stretch="Fill"/>
+        <Image Grid.ColumnSpan="2" Source="content/placeholder.png" Margin="40 20" Stretch="Fill"/>
 
         <Label Grid.Row="1" Margin="40 0 0 0 " Content="RUT Cliente:" VerticalAlignment="Center"/>
         <TextBox Grid.Row="1" Grid.Column="1" Margin="40 20"/>
