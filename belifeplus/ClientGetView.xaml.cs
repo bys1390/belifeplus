@@ -16,29 +16,13 @@ using System.Windows.Shapes;
 namespace belifeplus
 {
 	/// <summary>
-	/// Lógica de interacción para ClientMenuView.xaml
+	/// Lógica de interacción para ClientGetView.xaml
 	/// </summary>
-	public partial class ClientMenuView : MetroWindow
+	public partial class ClientGetView : MetroWindow
 	{
-		public ClientMenuView()
+		public ClientGetView()
 		{
 			InitializeComponent();
-		}
-
-		private void Button_Click(Object sender, RoutedEventArgs e)
-		{
-			var w = new ClientAddView();
-			w.Closed += (_, __) => Show();
-			Hide();
-			w.ShowDialog();
-		}
-
-		private void Button_Click_1(Object sender, RoutedEventArgs e)
-		{
-			var w = new ClientGetView();
-			w.Closed += (_, __) => Show();
-			Hide();
-			w.ShowDialog();
 		}
 	}
 }

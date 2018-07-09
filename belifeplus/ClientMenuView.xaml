@@ -1,12 +1,37 @@
-﻿<Window x:Class="belifeplus.ClientMenuView"
+﻿<Controls:MetroWindow x:Class="belifeplus.ClientMenuView"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:belifeplus"
         mc:Ignorable="d"
-        Title="ClientMenuView" Height="450" Width="800">
+        Title="ClientMenuView" Height="350" Width="400" ResizeMode="NoResize">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <Button  Grid.ColumnSpan="2" Margin="40 20">
+            <Image Source="content/placeholder-vertical.png" Width="50" Height="50" Stretch="Fill"/>
+        </Button>
+        <Button Grid.Row="1" Margin="40 20" Click="Button_Click">
+            <Image Source="content/placeholder-vertical.png" Width="50" Height="50" Stretch="Fill"/>
+        </Button>
+        <Button Grid.Row="1" Grid.Column="1" Margin="40 20" Click="Button_Click_1">
+            <Image Source="content/placeholder-vertical.png" Width="50" Height="50" Stretch="Fill"/>
+        </Button>
+        <Button Grid.Row="2" Margin="40 20">
+            <Image Source="content/placeholder-vertical.png" Width="50" Height="50" Stretch="Fill"/>
+        </Button>
+        <Button Grid.Row="2" Grid.Column="2" Margin="40 20">
+            <Image Source="content/placeholder-vertical.png" Width="50" Height="50" Stretch="Fill"/>
+        </Button>
     </Grid>
-</Window>
+</Controls:MetroWindow>

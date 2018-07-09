@@ -1,11 +1,12 @@
-﻿<Window x:Class="belifeplus.MainWindow"
+﻿<Controls:MetroWindow x:Class="belifeplus.MainWindow"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:belifeplus"
         mc:Ignorable="d"
-        Title="MainWindow" Height="400" Width="800">
+        Title="MainWindow" Height="400" Width="800" ResizeMode="NoResize">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"/>
@@ -18,7 +19,7 @@
 
         <Image Grid.ColumnSpan="2"  Margin="40 20" Stretch="Fill" Source="content/placeholder-horizontal.png"/>
 
-        <Button Grid.Row="1" Margin="40">
+        <Button Grid.Row="1" Margin="40" Click="Button_Click">
             <StackPanel Orientation="Horizontal" >
                 <Image Source="content/placeholder-vertical.png" Height="50" Width="50" Stretch="Fill"/>
                 <Label Content="Menú clientes" VerticalAlignment="Center"/>
@@ -31,4 +32,4 @@
             </StackPanel>
         </Button>
     </Grid>
-</Window>
+</Controls:MetroWindow>
