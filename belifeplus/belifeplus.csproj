@@ -87,6 +87,50 @@
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
+    <Page Include="ClientModifyView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ContractAddView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ContractAutoInsurance.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ContractDeleteView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ContractGetView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ContractHomeInsurance.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ContractLifeInsurance.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ContractListView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ContractMenuView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ContractModifyView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ContrctTipeView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="MainView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -109,6 +153,39 @@
     </Compile>
     <Compile Include="ClientMenuView.xaml.cs">
       <DependentUpon>ClientMenuView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ClientModifyView.xaml.cs">
+      <DependentUpon>ClientModifyView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ContractAddView.xaml.cs">
+      <DependentUpon>ContractAddView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ContractAutoInsurance.xaml.cs">
+      <DependentUpon>ContractAutoInsurance.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ContractDeleteView.xaml.cs">
+      <DependentUpon>ContractDeleteView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ContractGetView.xaml.cs">
+      <DependentUpon>ContractGetView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ContractHomeInsurance.xaml.cs">
+      <DependentUpon>ContractHomeInsurance.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ContractLifeInsurance.xaml.cs">
+      <DependentUpon>ContractLifeInsurance.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ContractListView.xaml.cs">
+      <DependentUpon>ContractListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ContractMenuView.xaml.cs">
+      <DependentUpon>ContractMenuView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ContractModifyView.xaml.cs">
+      <DependentUpon>ContractModifyView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ContrctTipeView.xaml.cs">
+      <DependentUpon>ContrctTipeView.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainView.xaml.cs">
       <DependentUpon>MainView.xaml</DependentUpon>
