@@ -1,0 +1,39 @@
+﻿<Window x:Class="belifeplus.ContrctTipeView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:belifeplus"
+        mc:Ignorable="d"
+        Title="ContrctTipeView" Height="550" Width="450">
+    
+          <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+           
+
+        </Grid.RowDefinitions>
+
+        <!--Seguro de vida -->
+        <Button  Grid.Row="1"  Margin="40 20" Click="Button_Click">
+            <Label Content="Seguro de Vida" Grid.Column="0"/>
+           
+        </Button>
+        <!-- Seguro Automotriz-->
+        <Button  Grid.Row="2"  Margin="40 20" Click="Button_Click">
+            <Label Content="Seguro Automotriz" Grid.Column="0"/>
+
+        </Button>
+        <!-- seguro de hogar-->
+        <Button  Grid.Row="3"  Margin="40 20" Click="Button_Click">
+            <Label Content="Seguro de Hogar" Grid.Column="0"/>
+            
+        </Button>
+        <Image Source="content/placeholder.png" Margin="25" Stretch="Fill"/>
+
+
+    </Grid>
+</Window>

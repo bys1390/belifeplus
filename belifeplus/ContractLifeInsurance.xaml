@@ -1,0 +1,41 @@
+﻿<Window x:Class="belifeplus.ContractLifeInsurance"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:belifeplus"
+        mc:Ignorable="d"
+        Title="ContractLifeInsurance" Height="700" Width="500">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1.5*"/>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        
+        <Label Content="Nombre: " Grid.Row="1" Grid.Column="0" FontSize="14"/>
+        <Label Content="Prima Base: " Grid.Row="3" Grid.Column="0" FontSize="14"/>
+        <Label Content="Poliza Actual: " Grid.Row="3" Grid.Column="1" FontSize="14"/>
+        
+        <TextBox Name="TXT_Nombre" Grid.Row="2" Grid.Column="0" TextChanged="TbRut_TextChanged" Margin="0,10,10,10"/>
+        <TextBox Name="TXT_PrimaBase" Grid.Row="4" Grid.Column="0" TextChanged="TbRut_TextChanged" Margin="0,10,10,10"/>
+        <TextBox Name="TXT_PrimaActual" Grid.Row="4" Grid.Column="1" TextChanged="TbRut_TextChanged" Margin="0,10,10,10"/>
+        
+        <GroupBox Header="Descripcion" Grid.Row="5" Grid.Column="0" Grid.RowSpan="1" Grid.ColumnSpan="2" >
+            <TextBox Name="TXT_Descripcion" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" TextWrapping="Wrap" Margin="0,0,0,0" />
+        </GroupBox>
+        
+        <Image Grid.ColumnSpan="2" Source="content/placeholder.png" Margin="10" Stretch="Fill"/>
+        
+        <Button Name="BtnVolver" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="1" Grid.RowSpan="2" Click="BtnAgregar_Click"  Margin="10" Content="Volver"></Button>
+        <Button Name="BtnContinuar" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="2" Grid.RowSpan="2" Click="BtnAgregar_Click" Margin="10" Content="Continuar"></Button>
+    </Grid>
+</Window>

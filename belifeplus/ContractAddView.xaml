@@ -1,0 +1,53 @@
+﻿<Window x:Class="belifeplus.ContractAddView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:belifeplus"
+        mc:Ignorable="d"
+        Title="ContractAddView" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="0.5*"/>
+            <ColumnDefinition Width="0.5*"/>
+        </Grid.ColumnDefinitions>
+        <!-- Logo -->
+        <Image Grid.ColumnSpan="2" Source="content/placeholder.png" Margin="10" Stretch="Fill"/>
+        <!-- Datos contrato-->
+        <Label Content="Prima mensual " Grid.Row="1" Grid.Column="2"/>
+        <Label Content="Prima Anual " Grid.Row="2" Grid.Column="2"/>
+        <Label Content="¿Declara salud?" Grid.Row="5"/>
+        <Label Content="Fec ha termino de viegncia: " Grid.Row="3" Grid.Column="0"/>
+        <Label Content="Rut cliente: " Grid.Row="1" Grid.Column="0" />
+        <Label Content="Fec ha inicio de viegncia:" Grid.Row="2" Grid.Column="0"/>
+        <Label Content="Plan: " Grid.Row="4" Grid.Column="0"/>
+        
+        <CheckBox Name="ChkSalud" Grid.Row="5" Grid.Column="1" Margin="10,0,0,0"/>
+        <DatePicker Name="DtpInicioVigencia" Grid.Row="2" Grid.Column="1"/>
+        <DatePicker Name="DtpFinVigencia" Grid.Row="3" Grid.Column="1" Margin="0,0,0,0"/>
+        <ComboBox Name="CbPlan" Grid.Row="4" Grid.Column="1" SelectionChanged="CbPlan_SelectionChanged" Margin="0,10,0,10"/>
+
+        <TextBox Name="TXT_Rut" Grid.Row="1" Grid.Column="1" TextChanged="TbRut_TextChanged" Margin="0,10,0,10"/>
+        <TextBox Name="TXT_PrimaM" Grid.Row="1" Grid.Column="3" TextChanged="TbRut_TextChanged" Margin="0,10,0,10"/>
+        <TextBox Name="TXT_PrimaA" Grid.Row="2" Grid.Column="3" TextChanged="TbRut_TextChanged" Margin="0,10,0,10"/>
+        <GroupBox Header="Observaciones" Grid.Row="3" Grid.Column="2" Grid.RowSpan="4" Grid.ColumnSpan="2" >
+            <TextBox Name="TbObservaciones" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" TextWrapping="Wrap" Margin="0,0,0,0" />
+        </GroupBox>
+       
+        <Button Name="BtnAgregar" Grid.Row="4" Grid.Column="4" Grid.ColumnSpan="2" Grid.RowSpan="2" Click="BtnAgregar_Click">
+            <Image  Source="content/placeholder.png" Width="120" Height="100" Stretch="Fill"/>
+        </Button>
+    </Grid>
+</Window>
