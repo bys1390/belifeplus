@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace belifeplus_dal
+namespace BeLife.Business
 {
-    public class Class1
-    {
-    }
+	public class ContractManager
+	{
+	}
 }

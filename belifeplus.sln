@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "belifeplus", "belifeplus\belifeplus.csproj", "{A5ACC7EB-8190-485C-8204-FF36C317C113}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeLife", "belifeplus\BeLife.csproj", "{A5ACC7EB-8190-485C-8204-FF36C317C113}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "belifeplus-bll", "belifeplus-bll\belifeplus-bll.csproj", "{D62AE007-EC5C-4B97-A3E4-E5A3513AC0BF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeLife.Business", "belifeplus-bll\BeLife.Business.csproj", "{D62AE007-EC5C-4B97-A3E4-E5A3513AC0BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "belifeplus-dal", "belifeplus-dal\belifeplus-dal.csproj", "{4B8A4251-385C-4EFF-AF8F-D973A7902415}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeLife.Data", "belifeplus-dal\BeLife.Data.csproj", "{4B8A4251-385C-4EFF-AF8F-D973A7902415}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

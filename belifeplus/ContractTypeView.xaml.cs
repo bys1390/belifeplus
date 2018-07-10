@@ -17,9 +17,9 @@ namespace belifeplus
     /// <summary>
     /// Lógica de interacción para ContrctTipeView.xaml
     /// </summary>
-    public partial class ContrctTipeView : Window
+    public partial class ContractTypeView : Window
     {
-        public ContrctTipeView()
+        public ContractTypeView()
         {
             InitializeComponent();
         }

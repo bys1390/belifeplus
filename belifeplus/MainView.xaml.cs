@@ -2,7 +2,7 @@
 using System;
 using System.Windows;
 
-namespace belifeplus
+namespace BeLife
 {
 	/// <summary>
 	/// Lógica de interacción para MainWindow.xaml
