@@ -67,7 +67,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="ClientDeleteView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ClientGetView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ClientListView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -79,46 +87,6 @@
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <Page Include="ContractAddView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="ContractAutoInsurance.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="ContractDeleteView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="ContractGetView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="ContractHomeInsurance.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="ContractLifeInsurance.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="ContractListView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="ContractMenuView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="ContractModifyView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="ContrctTipeView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="MainView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -130,41 +98,17 @@
     <Compile Include="ClientAddView.xaml.cs">
       <DependentUpon>ClientAddView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ClientDeleteView.xaml.cs">
+      <DependentUpon>ClientDeleteView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ClientGetView.xaml.cs">
       <DependentUpon>ClientGetView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ClientListView.xaml.cs">
+      <DependentUpon>ClientListView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ClientMenuView.xaml.cs">
       <DependentUpon>ClientMenuView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ContractAddView.xaml.cs">
-      <DependentUpon>ContractAddView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ContractAutoInsurance.xaml.cs">
-      <DependentUpon>ContractAutoInsurance.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ContractDeleteView.xaml.cs">
-      <DependentUpon>ContractDeleteView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ContractGetView.xaml.cs">
-      <DependentUpon>ContractGetView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ContractHomeInsurance.xaml.cs">
-      <DependentUpon>ContractHomeInsurance.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ContractLifeInsurance.xaml.cs">
-      <DependentUpon>ContractLifeInsurance.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ContractListView.xaml.cs">
-      <DependentUpon>ContractListView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ContractMenuView.xaml.cs">
-      <DependentUpon>ContractMenuView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ContractModifyView.xaml.cs">
-      <DependentUpon>ContractModifyView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ContrctTipeView.xaml.cs">
-      <DependentUpon>ContrctTipeView.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainView.xaml.cs">
       <DependentUpon>MainView.xaml</DependentUpon>
@@ -204,6 +148,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="content\placeholder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\belifeplus-bll\belifeplus-bll.csproj">
+      <Project>{d62ae007-ec5c-4b97-a3e4-e5a3513ac0bf}</Project>
+      <Name>belifeplus-bll</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
