@@ -18,7 +18,7 @@ namespace belifeplus
     /// <summary>
     /// Lógica de interacción para ClientAddView.xaml
     /// </summary>
-    public partial class ClientAddView : MetroWindow
+    public partial class ClientAddView : Window
     {
         public ClientAddView()
         {

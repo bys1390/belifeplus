@@ -1,5 +1,4 @@
-﻿using MahApps.Metro.Controls;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,11 +15,11 @@ using System.Windows.Shapes;
 namespace belifeplus
 {
 	/// <summary>
-	/// Lógica de interacción para ClientGetView.xaml
+	/// Lógica de interacción para ClientListView.xaml
 	/// </summary>
-	public partial class ClientGetView : Window
+	public partial class ClientListView : Window
 	{
-		public ClientGetView()
+		public ClientListView()
 		{
 			InitializeComponent();
 		}
